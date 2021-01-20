@@ -44,11 +44,11 @@ img { width: 100%; }
 .fontAwesome_icon { color: $white; }
 
 .hidden { 
-    right: -100vw;
+    left: -100vw;
 }
 
 .show { 
-    right: 0 !important;
+    left: 0 !important;
 }
 
 a:hover { text-decoration: none; }
@@ -128,7 +128,7 @@ a:hover { text-decoration: none; }
             background: $black;
             position: absolute;
             top: 0;
-            right: -100vw;
+            left: -100vw;
             transition: all 500ms ease-in-out;
 
             .top_hamburgermenu {
